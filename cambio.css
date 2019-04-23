@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+#galeria{
+	border: 1px solid #EAEAEA;
+	padding: 20px;
+	padding-bottom: 0;
+	background: #0099CC;
+	width: auto;
+	margin: auto;
+}
+#imgMostrar{
+	width: 200px;
+	height:200px;
+
+
+}
+
+#galeria_miniaturas{
+	display: table;
+	margin: 0 auto;
+
+}
+.miniatura{
+	width: 200px;
+	height:200px;
+	float:left;
+	cursor: pointer;
+	padding: 5px;
+	margin: 10px 5px;
+}
